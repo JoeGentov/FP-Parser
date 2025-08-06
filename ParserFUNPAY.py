@@ -1,14 +1,14 @@
 import requests, FunPayAPI
 from FunPayAPI import Account, types, enums, Runner
 
-filename = "webhook.txt"
+filenamew = "webhook.txt"
 
-with open(filename, "r") as file:
+with open(filenamew, "r") as file:
     webhookurl = file.read().strip()
 
-filename = "goldenkey.txt"
+filenameg = "goldenkey.txt"
 
-with open(filename, "r") as file:
+with open(filenameg, "r") as file:
     token = file.read().strip()
 
 def parser():
@@ -76,4 +76,5 @@ parser()
     
     
         
+
         
